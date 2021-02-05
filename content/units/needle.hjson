@@ -4,6 +4,9 @@ weapons: [
     bullet: {
       type: MissileBulletType
       damage: 100
+      bullet: {
+      type: MissileBulletType
+      damage: 50
     }
   }
 ]
