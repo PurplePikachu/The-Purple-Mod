@@ -2,7 +2,7 @@ name: "Purple Mod"
 displayName: "The Purple Mod"
 author: PurplePikachu
 description: "A mod. Creates new features. 15 new units, ontop of new blocks."
-version: "0.aaaa1"
+version: "Mac 10 0.2"
 minGameVersion: "110.1"
 dependencies: [ ]
 hidden: false
