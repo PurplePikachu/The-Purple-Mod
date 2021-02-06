@@ -16,4 +16,5 @@ weapon: {
   bullet: MissileBulletType
   killshooter: true
   damage: 50
+  lifetime: 100
 }
