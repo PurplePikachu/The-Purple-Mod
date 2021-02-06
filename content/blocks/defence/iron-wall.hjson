@@ -1,0 +1,9 @@
+
+type: Walls
+name: Iron Wall
+description: A wall. Basic. Used for early waves.
+destructible: true
+placeableLiquid: true
+squareSprite: true
+health: 500
+research: copper-wall
