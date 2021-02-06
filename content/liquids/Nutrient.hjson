@@ -1,3 +1,4 @@
 type: Minerals
 name: Nutrient
 description: A fluid, in the Real World sense, having vitamins A, B, C and Zinc. Used to heal units.
+color: 54EF1F
