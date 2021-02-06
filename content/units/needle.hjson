@@ -1,12 +1,18 @@
-type: flying
-weapons: [
-  {
-    bullet: {
-      type: MissileBulletType
-      damage: 100
-      bullet: {
-      type: MissileBulletType
-      damage: 50
-    }
-  }
-]
+type: flyingUnit
+name: Needle
+description: A unit. The spore equivalent of Dagger/Flare.
+speed: 1
+flying: true
+health: 100
+engineOffset: 5
+range: 10
+killshooter: true
+weapon: { 
+  name: Needle Bullet
+  length: 0
+  reload: 10 
+  alternate: true 
+  bullet: MissileBulletType
+  killshooter: true
+  damage: 50
+}
