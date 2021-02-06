@@ -1,0 +1,8 @@
+type: Walls
+name: Large Iron Wall
+description: A wall. Basic. Used for early waves.
+destructible: true
+placeableLiquid: true
+squareSprite: true
+health: 2000
+research: iron-wall
