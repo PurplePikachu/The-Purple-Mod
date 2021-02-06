@@ -1,4 +1,4 @@
-type: flyingUnit
+type: flying
 name: Needle
 description: A unit. The spore equivalent of Dagger/Flare.
 speed: 1
