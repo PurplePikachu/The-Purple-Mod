@@ -9,8 +9,9 @@ range: 10
 killshooter: true
 weapon: { 
   name: Needle Bullet
-  length: 0
-  reload: 10 
+  range: 5
+  length: 5
+  reload: 2
   alternate: true 
   bullet: MissileBulletType
   killshooter: true
