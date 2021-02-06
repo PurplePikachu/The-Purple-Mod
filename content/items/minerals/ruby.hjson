@@ -1,0 +1,11 @@
+  
+research: {
+  parent: thorium
+  requirements: [
+    thorium/500
+    titanium/1000
+  ]
+}
+type: Minerals
+name: Ruby
+description: A rare mineral. Used to make strong walls.
