@@ -8,4 +8,4 @@ squareSprite: true
 health: 500
 research: copper-wall
 category: defense
-size: 2
+size: 1
