@@ -9,3 +9,4 @@ research: {
 type: Minerals
 name: Ruby
 description: A rare mineral. Used to make strong walls.
+color: EC350F
