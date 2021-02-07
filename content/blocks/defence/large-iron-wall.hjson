@@ -7,3 +7,5 @@ squareSprite: true
 health: 2000
 research: iron-wall
 size: 2
+buildVisibility: shown
+alwaysUnlocked: false
