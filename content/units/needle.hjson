@@ -7,14 +7,35 @@ health: 100
 engineOffset: 5
 range: 10
 killshooter: true
-weapon: { 
-  name: Needle Bullet
-  range: 5
-  length: 5
-  reload: 2
-  alternate: true 
-  bullet: MissileBulletType
-  killshooter: true
-  damage: 50
-  lifetime: 100
-}
+weapons: [
+  {
+    name: shadowscepter
+    reload: 200
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      splashDamageRadius: 200
+      splashDamage: 9000
+      homingPower: 999
+      homingRange: 90
+      frontColor: 537FA3FF
+      backColor: 385872FF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 15000
+        type: MissileBulletType
+        speed: 10
+        homingPower: 90
+        homingRange: 90
+        lightning: 20
+        lightningLength: 6
+        hitShake: 5
+      }
+    }
+  }
+]
