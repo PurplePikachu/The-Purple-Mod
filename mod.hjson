@@ -4,7 +4,7 @@ author: PurplePikachu
 description: "A mod. Creates new features. 15 new units, ontop of new blocks. 
 CHANGELOG:
 v.aaaa1 to v02763: Created 4 materials, 2 blocks, 1 unit and 1 liquid.
-v0.3 Indev: Entered Indev stage, added sprites for Nutrient, Iron Wall and Large Iron Wall"
+v0.3 Indev: Entered Indev stage, added sprites for Nutrient, Ruby, Super Alloy, Iron Wall and Large Iron Wall"
 version: "0.3 Indev"
 minGameVersion: "122.1"
 dependencies: [ ]
