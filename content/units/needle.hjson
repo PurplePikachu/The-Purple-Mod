@@ -9,8 +9,8 @@ range: 10
 killshooter: true
 weapons: [
   {
-    name: shadowscepter
-    reload: 200
+    name: Needle Bullet
+    reload: 10
     alternate: true
     shootCone: 120
     rotate: true
@@ -22,8 +22,8 @@ weapons: [
       splashDamage: 9000
       homingPower: 999
       homingRange: 90
-      frontColor: 537FA3FF
-      backColor: 385872FF
+      frontColor: FFFFFF
+      backColor: FFFFFF
       fragBullets: 10
       fragBullet: {
         lifetime: 10
