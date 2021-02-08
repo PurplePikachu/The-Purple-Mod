@@ -8,7 +8,7 @@ health: 2000
 research: {
   parent: iron-wall
   requirements: [
-    iron/2400
+    Iron/2400
   ]
 }
 requirements: [
