@@ -11,3 +11,4 @@ category: defense
 size: 1
 buildVisibility: shown
 alwaysUnlocked: false
+solid: true
