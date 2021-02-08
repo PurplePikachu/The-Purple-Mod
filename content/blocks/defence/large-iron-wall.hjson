@@ -6,7 +6,6 @@ placeableLiquid: true
 squareSprite: true
 health: 2000
 research: {
-  parent: iron-wall
   requirements: [
     Iron/2400
   ]
