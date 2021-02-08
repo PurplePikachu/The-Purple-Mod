@@ -12,7 +12,7 @@ research: {
   ]
 }
 requirements: [
-  iron/24
+  Iron/24
 ]
 
 size: 2
