@@ -9,3 +9,5 @@ research: iron-wall
 size: 2
 buildVisibility: shown
 alwaysUnlocked: false
+category: defence
+solid: true
