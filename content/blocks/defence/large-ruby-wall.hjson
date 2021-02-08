@@ -1,0 +1,25 @@
+  
+type: Walls
+name: Large Ruby Wall
+description: Tough wall. Has a better chance of shocking the attacker than it's smaller form, but weaker damage.
+destructible: true
+placeableLiquid: true
+squareSprite: true
+health: 16000
+research: 
+research: {
+  parent: ruby-wall
+  requirements: [
+    ruby/2400
+  ]
+}
+lightningChance: 40
+lightningDamage: 100
+category: defense
+size: 1
+buildVisibility: shown
+alwaysUnlocked: false
+solid: true
+requirements: [
+  ruby/24
+]
