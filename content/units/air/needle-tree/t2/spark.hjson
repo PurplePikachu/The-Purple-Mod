@@ -1,6 +1,7 @@
 type: flying
 name: Spark
-description: A unit. Shoots arcs at will. [yellow] It is a spark after all.
+description: A unit. Shoots arcs at will.
+It is a spark after all.
 speed: 2
 flying: true
 health: 500
