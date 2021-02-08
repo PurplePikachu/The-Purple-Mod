@@ -6,13 +6,12 @@ destructible: true
 placeableLiquid: true
 squareSprite: true
 health: 16000
-research: 
 research: {
   parent: ruby-wall
   requirements: [
     ruby/2400
   ]
-  }
+}
 lightningChance: 40
 lightningDamage: 100
 category: defense
