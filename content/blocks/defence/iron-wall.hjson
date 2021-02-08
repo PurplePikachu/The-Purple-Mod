@@ -6,9 +6,18 @@ destructible: true
 placeableLiquid: true
 squareSprite: true
 health: 500
-research: copper-wall
+research: 
+research: {
+  parent: copper-wall
+  requirements: [
+    iron/700
+  ]
+}
 category: defense
 size: 1
 buildVisibility: shown
 alwaysUnlocked: false
 solid: true
+requirements: [
+  iron/6
+]
