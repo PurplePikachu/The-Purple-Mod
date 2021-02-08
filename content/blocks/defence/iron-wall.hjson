@@ -12,7 +12,7 @@ research: {
   requirements: [
     iron/700
   ]
-}
+{}
 category: defense
 size: 1
 buildVisibility: shown
