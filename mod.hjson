@@ -1,4 +1,8 @@
 name: "Purple Mod"
 displayName: "The Purple Mod"
 author: PurplePikachu
-description: "A mod. Creates new features. 15 new units, ontop of new blocks. 
+description: "A mod. Creates new features. 15 new units, ontop of new blocks. Indev version."
+version: "0.4 Indev"
+minGameVersion: "122.1"
+dependencies: [ ]
+hidden: false
