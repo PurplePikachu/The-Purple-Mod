@@ -5,9 +5,17 @@ destructible: true
 placeableLiquid: true
 squareSprite: true
 health: 2000
-research: iron-wall
+research: {
+  parent: iron-wall
+  requirements: [
+    iron/2400
+  ]
+}
 size: 2
 buildVisibility: shown
 alwaysUnlocked: false
 category: defence
 solid: true
+requirements: [
+  iron/24
+]
