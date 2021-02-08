@@ -11,11 +11,12 @@ research: {
     iron/2400
   ]
 }
+requirements: [
+  iron/24
+]
+
 size: 2
 buildVisibility: shown
 alwaysUnlocked: false
 category: defence
 solid: true
-requirements: [
-  iron/24
-]
