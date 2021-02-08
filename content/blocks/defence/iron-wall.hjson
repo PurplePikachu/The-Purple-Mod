@@ -9,7 +9,7 @@ health: 500
 research: {
   parent: copper-wall
   requirements: [
-    iron/700
+    Iron/700
   ]
 }
 category: defense
