@@ -6,6 +6,7 @@ placeableLiquid: true
 squareSprite: true
 health: 2000
 research: {
+  parent: titanium-wall
   requirements: [
     Iron/2400
   ]
