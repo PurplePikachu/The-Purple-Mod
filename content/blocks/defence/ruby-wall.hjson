@@ -1,0 +1,18 @@
+type: Walls
+name: Ruby Wall
+description: Tough wall. Has a chance of shocking the attacker.
+destructible: true
+placeableLiquid: true
+squareSprite: true
+health: 4000
+research: surge-wall
+lightningChance: 20
+lightningDamage: 200
+category: defense
+size: 1
+buildVisibility: shown
+alwaysUnlocked: false
+solid: true
+requirements: [
+  ruby/6
+]
