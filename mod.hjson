@@ -2,12 +2,3 @@ name: "Purple Mod"
 displayName: "The Purple Mod"
 author: PurplePikachu
 description: "A mod. Creates new features. 15 new units, ontop of new blocks. 
-CHANGELOG:
-v.aaaa1 to v02763: Created 4 materials, 2 blocks, 1 unit and 1 liquid.
-v0.3 Indev: Entered Indev stage, Added and cleaned up sprites
-v0.32 Indev: Added Spark
-[green] CHANGELOG IN BETA"
-version: "0.32 Indev"
-minGameVersion: "122.1"
-dependencies: [ ]
-hidden: false
