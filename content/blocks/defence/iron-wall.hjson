@@ -18,5 +18,5 @@ buildVisibility: shown
 alwaysUnlocked: false
 solid: true
 requirements: [
-  iron/6
+  Iron/6
 ]
