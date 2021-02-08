@@ -18,5 +18,5 @@ requirements: [
 size: 2
 buildVisibility: shown
 alwaysUnlocked: false
-category: defence
+category: defense
 solid: true
