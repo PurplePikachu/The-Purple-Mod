@@ -1,0 +1,11 @@
+  
+research: {
+  parent: spore-pod
+  requirements: [
+    spore-pod: 2000
+  ]
+}
+type: Minerals
+color: #9A2EFE
+name: [yellow] Spore
+description: Very mysterious block. Used to make Spore-type units.
