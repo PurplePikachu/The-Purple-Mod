@@ -1,4 +1,6 @@
   
+explosiveness: 5
+toughness: 5
 research: {
   parent: spore-pod
   requirements: [
