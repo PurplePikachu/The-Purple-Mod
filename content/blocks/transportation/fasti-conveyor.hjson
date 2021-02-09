@@ -11,7 +11,7 @@ research: {
   parent: armored-conveyor
   requirements: [
     Iron/2763
-    Graphtanium/300
+    Graphtainium/300
   ]
 }
 category: distribution
