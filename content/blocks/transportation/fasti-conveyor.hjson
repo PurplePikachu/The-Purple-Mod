@@ -2,3 +2,23 @@ name: graphtanium-conveyor
 health: 50
 speed: 0.33
 displayedSpeed: 33
+description: Very fast conveyor! 
+destructible: true
+placeableLiquid: true
+squareSprite: true
+health: 500 
+research: {
+  parent: armored-conveyor
+  requirements: [
+    Iron/2763
+    Graphtanium/300
+  ]
+}
+category: transportation
+size: 1
+buildVisibility: shown
+alwaysUnlocked: false
+solid: true
+requirements: [
+  Graphtanium/1
+]
