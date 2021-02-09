@@ -1,7 +1,7 @@
 type: flying
 name: Needle
 description: A unit. The spore equivalent of Dagger/Flare.
-speed: 1
+speed: 3
 flying: true
 health: 100
 engineOffset: 5
