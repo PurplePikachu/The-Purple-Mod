@@ -1,1 +1,4 @@
-name: fasti-conveyor
+name: graphtanium-conveyor
+health: 50
+speed: 0.33
+displayedSpeed: 33
