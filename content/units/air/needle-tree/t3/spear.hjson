@@ -1,1 +1,30 @@
-
+type: flying
+name: Spear
+description: A very dangerous [yellow] unit, [white] but frail.
+speed: 1
+flying: true
+health: 400
+engineOffset: 5
+range: 7
+killshooter: true
+weapons: [
+  {
+    name: Needle Bullet
+    reload: 2
+    alternate: true
+    shootCone: 360
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 120
+      }
+    }
+  }
+]
