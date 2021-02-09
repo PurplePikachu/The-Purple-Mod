@@ -3,9 +3,6 @@ explosiveness: 5
 toughness: 5
 research: {
   parent: spore-pod
-  requirements: [
-    spore-pod: 500
-  ]
 }
 type: Minerals
 color: #9A2EFE
