@@ -1,6 +1,6 @@
 type: flying
 name: Spear
-description: A very dangerous [yellow] unit, [white] but frail.
+description: A very dangerous unit, but frail.
 speed: 1
 flying: true
 health: 400
@@ -23,7 +23,7 @@ weapons: [
       fragBullets: 10
       fragBullet: {
         lifetime: 10
-        damage: 120
+        damage: 300
       }
     }
   }
