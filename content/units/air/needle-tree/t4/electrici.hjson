@@ -1,7 +1,7 @@
 type: flying
 name: Electrici
 description: A dangerous unit. Shoots arcs AND flak bullets.
-details: Inspired by the Spectre (Not the turret), the Spores made their OWN "Spectre"!
+details: Inspired by the Spectre (Not the turret), the Spores made their OWN "Spectre"! It can even build!
 speed: 2
 flying: true
 health: 9000
@@ -9,42 +9,51 @@ armor: 10
 engineOffset: 5
 range: 5
 killshooter: true
-weapons: [
+buildSpeed: 2
+weapons:[
   {
-    name: Spark Spark
-    reload: 15
-    alternate: true
-    shootCone: 120
+    name: renidae-weapon
+    reload: 6
+    x: 4.5
+    y: 2
+    shootX: -0.625
+    shootY: 2.75
+    recoil: 1
     rotate: true
-    bullet: {
-      type: LaserBulletType
-      shootSound: laser
-      lifetime: 50
-      speed: 0
-      hitColor: e60000
-      colors:[E6E6E6, F2F2F2, FFFFFF]
-      damage: 110
-      fragBullets: 10
-      fragBullet: {
-        lifetime: 5
-        damage: 100
-       }
-      }
-      "name": "Needle Bullet",
-     "alternate": true,
-    "shootCone": 120,
-    "rotate": true
-    "bullet": {
-      "type" : "LaserBulletType",
-      "lifetime": 50,
-      "speed": 2,
-      "hitColor": e60000,
-      "colors":[E6E6E6, F2F2F2, FFFFFF]
-      "damage": 110,
-      "fragBullets": 10,
-      "fragBullet": {
-        "lifetime": 5,
-        "damage": 200,
+    top: true
+    shootSound: lasershoot
+    inaccuracy: 1
+    bullet:{
+      type: LaserBoltBulletType
+      damage: 100
+      healPercent: 1
+      backColor: 98ffa9
+      frontColor: ffffff
+      speed: 5.5
+      lifetime: 40
     }
   }
-':] 
+  {
+    name: renidae-weapon
+    reload: 30
+    x: 5.75
+    y: -8
+    shootX: -0.625
+    shootY: 2.75
+    recoil: 1
+    rotate: true
+    top: true
+    range: 0
+    shootSound: lasershoot
+    inaccuracy: 1
+    bullet:{
+      type: LaserBoltBulletType
+      damage: 100
+      healPercent: 1
+      backColor: 98ffa9
+      frontColor: ffffff
+      speed: 5.5
+      lifetime: 40
+    }
+  }
+]
