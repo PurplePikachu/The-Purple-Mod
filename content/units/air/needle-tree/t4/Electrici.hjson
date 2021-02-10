@@ -18,6 +18,7 @@ weapons: [
     rotate: true
     bullet: {
       type: LaserBulletType
+      shootSound: laser
       lifetime: 50
       speed: 0
       hitColor: e60000
@@ -29,7 +30,7 @@ weapons: [
         damage: 100
        }
       }
-      {
+      
         name: Needle Bullet
     reload: 15
     alternate: true
