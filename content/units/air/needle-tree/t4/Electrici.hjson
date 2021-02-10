@@ -25,23 +25,23 @@ weapons: [
       fragBullet: {
         lifetime: 5
         damage: 100
-        }
-    name: Needle Bullet
-    reload: 8
-    alternate: true
-    shootCone: 120
-    rotate: true
-    bullet: {
-      type: LaserBulletType
-      lifetime: 50
-      speed: 2
-      hitColor: e60000
-      colors:[E6E6E6, F2F2F2, FFFFFF]
-      damage: 110
-      fragBullets: 10
-      fragBullet: {
+            name: Needle Bullet
+            reload: 8
+            alternate: true
+            shootCone: 120
+            rotate: true
+            bullet: {
+          type: LaserBulletType
+          lifetime: 50
+          speed: 2
+          hitColor: e60000
+          colors:[E6E6E6, F2F2F2, FFFFFF]
+          damage: 110
+          fragBullets: 10
+          fragBullet: {
         lifetime: 5
         damage: 400
+        }
       }
     }
   }
