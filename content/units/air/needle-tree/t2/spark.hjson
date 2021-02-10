@@ -9,7 +9,7 @@ range: 5
 killshooter: true
 weapons: [
   {
-    name: Needle Bullet
+    name: Spark Spark
     reload: 20
     alternate: true
     shootCone: 120
