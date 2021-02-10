@@ -27,7 +27,7 @@ weapons: [
       fragBullet: {
         lifetime: 5
         damage: 100
-                }
+       }
       }
       {
         name: Needle Bullet
