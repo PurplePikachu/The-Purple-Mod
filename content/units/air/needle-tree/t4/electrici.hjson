@@ -35,7 +35,7 @@ weapons: [
     "shootCone": 120,
     "rotate": true
     "bullet": {
-      "type":: "LaserBulletType",
+      "type" : "LaserBulletType",
       "lifetime": 50,
       "speed": 2,
       "hitColor": e60000,
