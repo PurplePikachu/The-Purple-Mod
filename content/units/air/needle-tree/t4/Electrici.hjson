@@ -1,9 +1,11 @@
 type: flying
 name: Electrici
 description: A dangerous unit. Shoots arcs AND flak bullets.
+details: Inspired by the Spectre (Not the turret), the Spores made their OWN "Spectre"!
 speed: 2
 flying: true
 health: 9000
+armor: 10
 engineOffset: 5
 range: 5
 killshooter: true
@@ -25,6 +27,9 @@ weapons: [
       fragBullet: {
         lifetime: 5
         damage: 100
+                }
+      }
+    {
         name: Needle Bullet
     reload: 15
     alternate: true
@@ -41,8 +46,6 @@ weapons: [
       fragBullet: {
         lifetime: 5
         damage: 200
-        }
-      }
     }
   }
  ]
