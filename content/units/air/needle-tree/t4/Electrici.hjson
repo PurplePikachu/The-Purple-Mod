@@ -29,7 +29,7 @@ weapons: [
         damage: 100
                 }
       }
-    {
+      {
         name: Needle Bullet
     reload: 15
     alternate: true
