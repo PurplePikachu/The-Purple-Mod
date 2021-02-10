@@ -30,10 +30,8 @@ weapons: [
         damage: 100
        }
       }
-      
-        name: Needle Bullet
-    reload: 15
-    alternate: true
+      name: Needle Bullet
+     alternate: true
     shootCone: 120
     rotate: true
     bullet: {
