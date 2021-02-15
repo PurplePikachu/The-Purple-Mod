@@ -1,1 +1,33 @@
-
+type: legs
+name: Spomember
+description: A member of the Spore Replacer family. Now he got legs. Shoots a barrage of bullets.
+speed: 3
+boost: true
+health: 700
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: Spohelper Gun
+    shootSound: lasershoot
+    reload: 2
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 12
+        collidesTeam: true
+        healPercent: 6
+      }
+    }
+  }
+]
