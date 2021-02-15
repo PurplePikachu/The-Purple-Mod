@@ -5,7 +5,7 @@ speed: 3
 boost: true
 health: 700
 engineOffset: 5
-range: 4
+range: 10
 killshooter: true
 weapons: [
   {
