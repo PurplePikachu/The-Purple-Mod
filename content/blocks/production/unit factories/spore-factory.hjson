@@ -1,0 +1,17 @@
+
+{
+	"type": "UnitFactory",
+    "size": 3,
+	"consumes": {"power": 4},
+    "plans":[{
+    	"unit": "needle",
+    	"requirements": [
+		{"item": "silicon", "amount": 30},
+    {"item": "copper", "amount": 30},
+		{"item": "lead", "amount": 15}],
+	"time": 2100
+	}],
+	],
+	"category": "units",
+	"research": "ground-factory"
+}
