@@ -7,10 +7,17 @@
     	"unit": "needle",
     	"requirements": [
 		{"item": "silicon", "amount": 30},
-    {"item": "copper", "amount": 30},
+    		{"item": "copper", "amount": 30},
 		{"item": "lead", "amount": 15}],
 	"time": 2100
 	}],
 	"category": "units",
-	"research": "ground-factory"
+	"research": "ground-factory",
+	"alwaysUnlocked": "false",
+	"solid": "true",
+	"requirements": [
+  	{"item": "silicon", "amount": 100},
+    	{"item": "copper", "amount": 100},
+	{"item": "lead", "amount": 50}],
+	]
 }
