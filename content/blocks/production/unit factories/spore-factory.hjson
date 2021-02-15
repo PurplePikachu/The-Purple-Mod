@@ -28,3 +28,5 @@ requirements: [
   silicon/200
   titanium/100
 ]
+research: additive-reconstructor
+category: units
