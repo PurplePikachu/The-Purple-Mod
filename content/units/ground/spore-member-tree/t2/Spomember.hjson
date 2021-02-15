@@ -1,0 +1,35 @@
+
+  
+type: mech
+name: Spomember
+description: A member of the Spore Replacer family. Basically Discord people when they get access to a high security server. Higher damage than Spoinew and slower reload.
+speed: 3
+boost: true
+health: 100
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: Spomember Gun
+    shootSound: lasershoot
+    reload: 12
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 50
+        collidesTeam: true
+        healPercent: 6
+      }
+    }
+  }
+]
