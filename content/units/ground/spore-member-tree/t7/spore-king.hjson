@@ -1,6 +1,6 @@
 type: mech
-name: Spomember
-description: A member of the Spore Replacer family. Final iteration. Kill it, and it is yours.
+name: Spore King
+description: A member of the Spore Replacer family, or rather, leader. Final iteration. Kill it, and it is yours.
 speed: 0.2
 boost: true
 health: 8000000
