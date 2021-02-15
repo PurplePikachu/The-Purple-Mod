@@ -1,22 +1,30 @@
-
-{
-	"type": "UnitFactory",
-    "size": 3,
-	"consumes": {"power": 4},
-    "plans":[{
-    	"unit": "needle",
-    	"requirements": [
-		{"item": "silicon", "amount": 30},
-    		{"item": "copper", "amount": 30},
-		{"item": "lead", "amount": 15}],
-	"time": 2100
-	}],
-	"category": "units",
-	"research": "ground-factory",
-	"alwaysUnlocked": "false",
-	"solid": "true",
-	"requirements": [
-  	{"item": "silicon", "amount": 100},
-    	{"item": "copper", "amount": 100},
-	{"item": "lead", "amount": 50}],
+type: UnitFactory
+name: Spore Factory
+description: Water, Earth, Air. All we need is Fire and we complete the Bender square. With that silly talk, produces 3 units.
+health: 300
+consumes: {
+  power: 5.0
+  }
 }
+plans: [
+  {
+    unit: needle
+    time: 1570
+    requirements: [
+      silicon/150
+      lead/200
+    ]
+  }
+    {
+    unit: Spoinew
+    time: 3600
+    requirements: [
+      silicon/100
+    ]
+  }
+]
+requirements: [
+  lead/100
+  silicon/200
+  titanium/100
+]
