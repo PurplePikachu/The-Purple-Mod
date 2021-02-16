@@ -1,0 +1,33 @@
+type: naval
+name: Plank
+description: A "boat". Despite it being "useless", it actually is quite strong.
+details: "Do you want a new Risso? Yes, but since this is a Spore Factory, \n\nhere is a knockoff version of Risso, called PLANK."
+speed: 3
+boost: true
+health: 220
+engineOffset: 5
+range: 4
+killshooter: true
+weapons: [
+  {
+    name: log-wood-planks
+    shootSound: lasershoot
+    reload: 7
+    alternate: true
+    shootCone: 120
+    rotate: true
+    bullet: {
+      type: FlakBulletType
+      lifetime: 1000
+      speed: 10
+      frontColor: FFFFFF
+      backColor: FFFFFF
+      fragBullets: 10
+      fragBullet: {
+        lifetime: 10
+        damage: 30
+        collidesTeam: true
+        healPercent: 3
+      }
+    }
+  }
