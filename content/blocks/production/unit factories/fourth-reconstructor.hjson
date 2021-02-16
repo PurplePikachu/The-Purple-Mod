@@ -1,7 +1,7 @@
 
 type: Reconstructor
 name: 1/4 Reconstructor
-description: Upgrades Spore Units to their third tier. Needs water as coolant.
+description: Upgrades Spore Units to their third tier. Needs water as coolant. Also crushes Spore Pods, then uses them.
 size: 3
 health: 1300
 constructTime: 100
@@ -13,6 +13,7 @@ consumes: {
         silicon/200
         plastanium/100
         titanium/150
+        spore-pod/100
       ]
     }
   liquid: {
@@ -23,4 +24,11 @@ consumes: {
 upgrades: [
   [spark, spear]
 ]
+requirements: [
+  lead/100
+  silicon/200
+  copper/400
+  spore-pod/700
+]
+research: spore-factory
 category: units
