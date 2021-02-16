@@ -23,4 +23,10 @@ upgrades: [
   [needle, spark]
   [Spoinew, Spomember]
 ]
+requirements: [
+  lead/100
+  silicon/200
+  thorium/100
+]
+research: spore-factory
 category: units
